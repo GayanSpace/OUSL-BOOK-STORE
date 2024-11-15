@@ -1,0 +1,118 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Admin Dashboard Styling */
+#admin-dashboard {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#admin-dashboard h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.add-book-btn, .generate-report-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 15px 0;
+}
+
+.add-book-btn:hover, .generate-report-btn:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+.inventory-table th, .inventory-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    
+}
+
+.inventory-table th {
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+}
+
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.edit-btn {
+    background-color: #333;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+.delete-btn:hover {
+    background-color: #ff6666;
+}

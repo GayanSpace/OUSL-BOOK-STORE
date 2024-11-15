@@ -1,0 +1,112 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Subscription Packages Page Styling */
+#subscriptions {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#subscriptions h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#subscriptions p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.package-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.package {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.package h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.package ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    color: #666;
+}
+
+.package ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.subscribe-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color: #ffd700;
+    color: #333;
+}

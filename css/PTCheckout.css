@@ -1,0 +1,123 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#checkout {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#checkout h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.order-summary {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.order-summary h3, .order-total h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.order-item p {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.order-total {
+    text-align: right;
+    font-weight: bold;
+}
+
+.checkout-form {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.checkout-form h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.checkout-form label {
+    display: block;
+    font-size: 1em;
+    margin: 10px 0 5px;
+}
+
+.checkout-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.checkout-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.checkout-btn:hover {
+    background-color: #ffd700;
+    color: #333;
+}
