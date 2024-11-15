@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pride and PreJudice</title>
+    <link rel="stylesheet" href="css/html.css">
+</head>
+<body> <header>
+    <h1 >OUSL Book Store</h1>
+    <nav>
+        <ul>
+            
+            <li><a onclick="window.location.href='html.html';">Books</a></li>
+            <li><a onclick="window.location.href='html.html';">Events</a></li>
+            <!--<li><a href="#subscriptions">Subscriptions</a></li>-->
+            <li><a onclick="window.location.href='Contact.html';">Contact</a></li>
+            <li><a href="#Filter">Filter</a></li>
+            <li><a onclick="window.location.href='Checkout.html';">Cart</a></li>
+            <div class="search-bar">
+                <input type="text" placeholder="Search books...">
+                <button type="submit">Search</button>
+            </div>
+            <li><a onclick="window.location.href='SignInOrUp.html';">SignUp/SignIn</a></li>
+            <li><a onclick="window.location.href='MyStore.html';">My Store</a></li>
+           
+        </ul>
+    </nav>
+</header><body style="background-image: url(pexels-element5-1370296.jpg);">
+
+    <div class="product-container">
+        <!-- Add an image of the product -->
+        <img src="image/1.jpeg" alt="pride And PreJudice - Book Cover" class="product-image">
+
+        <h1 class="product-title"><b><u>Pride And Prejudice by Jane Austen</u></b></h1>
+
+        <p class="product-price"><b>රු3,780.00</b></p>
+
+        <p class="product-stock">Hurry, Only 4 left.</p>
+
+       
+           <div class="quantity-container">
+           <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1" max="4">
+           
+           </div>
+
+        <!-- Add to Cart Button -->
+       <table><tr><td><button onclick="window.location.href='PTCheckout.html';" class="add-to-cart"><span></span>Buy Now</button></td>
+        <td><button onclick="window.location.href='Checkout.html';" class="add-to-cart"><span></span>Add to Cart</button></td>
+    </tr>
+    </table> 
+        <a href="#" class="add-to-wishlist">Add to wishlist</a>
+
+        <div class="product-info">
+            <h3><b>Additional Information:</b></h3>
+            <p><strong><b>Authors:</b></strong> Jane Austen</p>
+            <p><strong><b>Publishers:</b></strong> HACHETTE INDIA</p>
+            <p><strong><b>ISBN:</b></strong> 9781529353235</p>
+            <p><strong><b>Language:</b></strong> English</p>
+            <p><strong><b>Cover:</b></strong> Soft Cover</p>
+            <p><strong><b>Source:</b></strong> FOREIGN</p>
+        </div>
+
+        <div class="previous-next-container">
+            <a href="new6.html">Previous product</a>
+            <a href="new2.html">Next product</a>
+        </div>
+    </div>
+    <!-- Subscription Section -->
+<section id="subscriptions">
+    <h2>Monthly Book Subscriptions</h2>
+    <p>Join our monthly subscription service for curated book selections.</p>
+    <button onclick="window.location.href='Subs.html';">Learn More</button>
+</section>
+</main>
+
+<!-- Footer Section -->
+<footer>
+<p>&copy; 2024 OUSL BookStore. All Rights Reserved.</p>
+</footer>
+</body>
+</body>
+</html>

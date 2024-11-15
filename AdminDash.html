@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - OUSL BookStore</title>
+    <link rel="stylesheet" href="css/AdiminReport.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a onclick="window.location.href='Main.html'">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="admin-dashboard">
+            <center><h2>Manage Book Inventory</h2></center>
+            <button class="add-book-btn">Add New Book</button>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Pride and Prejudice</td>
+                        <td>Jane Austen</td>
+                        <td>රු 3,780.00</td>
+                        <td>1</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Ramona The Brave</td>
+                        <td>Beverly, Cleary</td>
+                        <td>රු 2,590.00</td>
+                        <td>1</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+            <h2>Generate Sales Report</h2>
+            <button onclick="window.location.href='AdminReport.html';" class="generate-report-btn">Generate Report</button>
+        </section>
+    </main>
+</body>
+</html>

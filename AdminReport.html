@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Generated Report</title>
+    <link rel="stylesheet" href="css/AdiminReport.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Admin Dashboard - Sales Report</h1>
+        <nav>
+            <ul>
+                <li><a onclick="window.location.href='html.html';">Home</a></li>
+                <li><a onclick="window.location.href='AdminDash.html';">Manage Inventory</a></li>
+               <!-- <li><a href="generate_report.html">Generated Report</a></li> -->
+                <li><a onclick="window.location.href='Main.html';">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Report Section -->
+    <main>
+        <section id="report-section">
+            <h2>Sales Report</h2>
+            
+            <!-- Date Filter Form -->
+            <div class="filter">
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date">
+                
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date">
+                
+                <button onclick="filterReport()">Filter</button>
+            </div>
+            
+            <!-- Report Table -->
+            <table id="sales-report">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer Name</th>
+                        <th>Book Title</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Date</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample -->
+                    <tr>
+                        <td>102</td>
+                        <td>Dilshan</td>
+                        <td>Pride and Prejudice</td>
+                        <td>1</td>
+                        <td>රු 3,780.00</td>
+                        <td>2024-11-01</td>
+                        <td>රු 3,780.00</td>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>Perera</td>
+                        <td>Ramona The Brave</td>
+                        <td>1</td>
+                        <td>රු 2,590.00</td>
+                        <td>2024-11-02</td>
+                        <td>රු 2,590.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Export  -->
+            <button onclick="exportReport()">Export as CSV</button>
+        </section>
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+        <p>&copy; 2024 OUSL Book Store Admin. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function filterReport() {
+            // JavaScript function to filter the report based on the selected date range.
+            alert("Filtering the report by date range is not yet implemented.");
+        }
+
+        function exportReport() {
+            // JavaScript function to export the report as CSV.
+            alert("Exporting report to CSV is not yet implemented.");
+        }
+    </script>
+</body>
+</html>

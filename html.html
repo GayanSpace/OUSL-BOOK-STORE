@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUSL BookStore</title>
+    <link rel="stylesheet" href="css/html.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <h1 >OUSL BOOK STORE</h1>
+        <nav><ul>
+            <div class="navbar">
+            <img src="New folder/logo-no-background.png" alt="OUSL Logo" class="logo">
+            <ul>
+        
+            <ul>
+                <li><a onclick="window.location.href='Main.html';">Home</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#events">Events</a></li>
+                <!--<li><a href="#subscriptions">Subscriptions</a></li>-->
+                <li><a onclick="window.location.href='Contact.html';">Contact</a></li>
+                <li><a onclick="window.location.href= 'Checkout.html';">Cart</a></li>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Search books...">
+                    <button type="submit">Search</button>
+                    <li><a href="#Filter">Filter</a></li>
+                </div>
+                <li><a onclick="window.location.href='SignInOrUp.html';">SignUp/SignIn</a></li>
+                <li><a onclick="window.location.href= 'MyStore.html';">My Store</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Main Content Section -->
+    <main style="background-image: url(image/HOme.jpg);" >
+        <!-- Featured Books Section -->
+        <section id="books">
+            <h2 style="color:#ffd700 ;">Featured Books</h2>
+            <div class="book-list">
+                <div class="book-item">
+                   <img src="image/1.jpeg" alt="Pride and Prejudice">
+                    <h3>Pride and Prejudice</h3>
+                    <p> Jane Austen</p><br><br>
+                    <button onclick="window.location.href= 'new1.html';">Read Now</button>
+                </div>
+                <!-- Repeat book items as needed -->
+                <div class="book-item">
+                    <img src="image/10195217-700x840.jpg" alt="Book Cover">
+                    <h3>Ramona The Brave</h3>
+                    <p>Beverly, Cleary</p><br><br><br><br>
+                    <button onclick="window.location.href= 'new2.html';">Read Now</button>
+                </div>
+                <!-- Repeat book items as needed -->
+                <div class="book-item">
+                    <img src="image/3.jpg" alt="Book Cover">
+                    <h3>Worthy (How To Believe You Are Enough And Transform Your Life)</h3>
+                    <p>	Jamie Kern,Lima</p>
+                    <button onclick="window.location.href= 'new3.html';">Read Now</button>
+                </div>
+                <!-- Repeat book items as needed -->
+                <div class="book-item">
+                    <img src="image/4.jpg" alt="">
+                    <h3>Everyone Here Is Lying</h3>
+                    <p>LAPENA, SHARI</p><br><br><br><br>
+                    <button onclick="window.location.href= 'new4.html';">Read Now</button>
+                </div>
+                <!-- Repeat book items as needed -->
+              
+            </div>
+
+            <br>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="image/5.jpg" alt="Book Cover">
+                    <h3>The Psychology of Selling</h3>
+                    <p>	Brian Tracy</p>
+                    <button onclick="window.location.href= 'new5.html';">Read Now</button>
+                </div>
+                <!-- Repeat book items as needed -->
+                <div class="book-item">
+                    <img src="image/6.jpg" alt="Book Cover">
+                    <h3>The Rose The Dagger</h3>
+                    <p>Ahdieh, Renée</p>
+                    <button onclick="window.location.href= 'new6.html';">Read Now</button>
+                </div>
+                <!-- Repeat book items as needed -->
+                
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events">
+            <h2 style="color: #ffd700;">Upcoming Events</h2>
+            <div class="event-list">
+                <div class="event-item">
+                    <h3>The Complete Sherlock Holmes 4</h3>
+                    <p>release on 10th November</p>
+                    <button onclick="window.location.href='Checkout.html';">Reserve book</button>
+                </div>
+                <!-- Repeat event items as needed -->
+            </div>
+            <br>
+            <div class="event-list">
+                <div class="event-item">
+                    <h3>Heroes of Olympus The House of Hades </h3>
+                    <p>release on 12th November</p>
+                    <button onclick="window.location.href='Checkout.html';">Reserve Book</button>
+                </div>
+                <!-- Repeat event items as needed -->
+            </div>
+        </section>
+
+        <!-- Subscription Section -->
+        <section id="subscriptions">
+            <h2>Monthly Book Subscriptions</h2>
+            <p>Join our monthly subscription service for curated book selections.</p>
+            <button onclick="window.location.href='Subs.html';">Learn More</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 OUSL BookStore. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
