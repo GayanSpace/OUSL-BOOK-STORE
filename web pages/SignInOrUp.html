@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - OUSL BookStore</title>
+    <link rel="stylesheet" href="css/SignInOrUUp.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>OUSL Book Store</h1>
+        <nav>
+            <ul>
+                <li><a onclick="window.location.href='html.html';">Home</a></li>
+                <li><a onclick="window.location.href='html.html';">Books</a></li>
+                <li><a onclick="window.location.href='html.html';">Events</a></li>
+                <li><a onclick="window.location.href='Checkout.html';">Cart</a></li>
+                <li><a onclick="window.location.href='SignIn.html';">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sign Up Section -->
+    <main>
+        <section id="sign-up">
+            <center><h2></h2></center>
+            <form action="welcome.html" method="post" class="auth-form">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit" class="auth-btn" type="window.location.href='html.html';">Sign Up</button>
+                <p>Already have an account? <a type="window.location.href='html.html';" href="signin.html">Sign In here</a>.</p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <center><p>&copy; 2024 OUSL BookStore. All Rights Reserved.</p></center>
+    </footer>
+</body>
+</html>

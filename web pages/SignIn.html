@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - OUSL BookStore</title>
+    <link rel="stylesheet" href="css/SignIn.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>OUSL Book Store</h1>
+        <nav>
+            <ul>
+                <li><a onclick="window.location.href='html.html';">Home</a></li>
+                <li><a onclick="window.location.href='html.html';">Books</a></li>
+                <li><a onclick="window.location.href='html.html';">Events</a></li>
+                <li><a onclick="window.location.href='Checkout.html';">Cart</a></li>
+                <li><a onclick="window.location.href='SignInOrUp.html';">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sign In Section -->
+    <main>
+        <section id="sign-in">
+            <form onsubmit="return validateSignIn(event)" class="auth-form">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="auth-btn">Sign In</button>
+                <p>Don't have an account? <a href="SignInOrUp.html">Sign Up here</a>.</p>
+                <p id="error-message" style="color: red; display: none;">Invalid email or password</p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <center><p>&copy; 2024 OUSL BookStore. All Rights Reserved.</p></center>
+    </footer>
+
+    <script>
+        function validateSignIn(event) {
+            event.preventDefault(); // Prevent form submission for validation
+            
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+
+            // Set the correct admin credentials here
+            const adminEmail = "admin@ouslbookstore.com";
+            const adminPassword = "admin123";
+
+            if (email === adminEmail && password === adminPassword) {
+                window.location.href = "AdminDash.html"; // Redirect to admin dashboard if admin credentials match
+            } else {
+                document.getElementById("error-message").style.display = "block"; // Show error message if login fails
+            }
+        }
+    </script>
+</body>
+</html>

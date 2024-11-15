@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - OUSL BookStore</title>
+    <link rel="stylesheet" href="css/Checkout.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>OUSL Book Store</h1>
+        <nav>
+            <ul>
+                <li><a onclick="window.location.href='html.html';">Home</a></li>
+                <li><a onclick="window.location.href='html.html';">Books</a></li>
+                <li><a onclick="window.location.href='html.html';">Events</a></li>
+                <li><a onclick="window.location.href='MyStore.html';">My Store</a></li>
+                <!--<li><a href="cart.html">Cart</a></li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <main>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div class="cart-item">
+                <h3>Book Title 1</h3>
+                <p>Pride and Prejudice</p>
+                <p>Price: රු 3,780.00</p>
+                <button class="remove-btn">Remove</button>
+            </div>
+            <div class="cart-item">
+                <h3>Book Title 2</h3>
+                <p>Ramona The Brave</p>
+                <p>Price: රු 2,590.00</p>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <div class="cart-total">
+                <h3>Total: රු 6,370.00</h3>
+                <button class="checkout-btn" onclick="window.location.href='PTCheckout.html';">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+<br><br><br><br>
+    <!-- Footer -->
+    <footer>
+        <center><p>&copy; 2024 OUSL BookStore. All Rights Reserved.</p></center>
+    </footer>
+</body>
+</html>
